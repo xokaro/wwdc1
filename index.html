@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weekly WebDev Challenge 1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo header-logo"></div>
+        </header>
+        <section class="forms flex">
+            <div class="forms--helper">
+                <article class="form form__register flex">
+                    <h2 class="form__heading">Register Form</h2>
+                    <form class="article-form">
+                        <div class="form__username">            
+                            <label for="Username">
+                                Username
+                            </label>
+                            <input type="text" class="form--input form--username" placeholder="Username">
+                        </div>
+                        <div class="form__password">
+                            <label for="Password">
+                                Password
+                            </label>
+                            <input type="text" class="form--input form--password" placeholder="Password">
+                        </div>
+                        <div class="form__password">
+                            <label for="Confirm Password">
+                                Confirm Password
+                            </label>
+                            <input type="text" class="form--input form--password" placeholder="Confirm Password">           
+                        </div>
+                        <div class="form__email">
+                            <label for="email">
+                                Email
+                            </label>
+                            <input type="text" class="form--input form--email" placeholder="Email">
+                        </div>
+                        <div class="form__location">
+                            <label for="location">
+                                Your Location
+                            </label>
+                            <select name="location" class="form--input form--location">
+                                <option>Your Location</option>
+                            </select>
+                        </div>
+                        <p class="form__checkbox">
+                            <input type="checkbox" class="form--checkbox"> 
+                            <label for="checkbox-terms" class="checkbox">
+                                I have read and accept the terms of use.
+                            </label>
+                        </p>
+                        <input type="submit" value="Sign up" class="form__button form__button--accept">
+                    </form>
+                </article>
+                <article class="form form__send-email flex">
+                    <h2 class="form__heading">Send Email</h2>
+                    <form class="article-form">
+                        <div class="form__username">
+                            <label for="Username">
+                                Your Name
+                            </label>
+                            <input type="text" class="form--input" placeholder="Username">
+                        </div>
+                        <div class="form__email">
+                            <label for="email">
+                                Email
+                            </label>
+                            <input type="text" class="form--input" placeholder="Email">
+                        </div>
+                        <textarea class="form--input form--textarea" placeholder="Type your message..."></textarea>
+                        <p class="form__checkbox">
+                            <input type="checkbox" class="form--checkbox"> 
+                            <label for="checkbox-terms" class="checkbox">
+                                Send a copy to my email.
+                            </label>
+                        </p> 
+                        <input type="submit" value="Send Email" class="form__button form__button--accept">       
+                    </form>   
+                </article>
+            </div>
+            <div class="forms--helper">
+                <article class="form form__sign-in flex">
+                    <h2 class="form__heading">Sign In Form</h2>
+                    <form class="article-form">
+                        <div class="form__username">
+                            <label for="Username">
+                                Username
+                            </label>
+                            <input type="text" class="form--input" placeholder="Username">
+                         </div>
+                         <div class="form__password">
+                            <label for="Password">
+                                Password
+                            </label>
+                            <input type="text" class="form--input" placeholder="Password">
+                        </div>
+                        <div class="form__buttons--helper">
+                            <p class="form__checkbox">
+                                <input type="checkbox" class="form--checkbox"> 
+                                <label for="checkbox-terms" class="checkbox">
+                                    Remember me.
+                                </label>
+                            </p>
+                            <input type="submit" value="Sign in" class="form__button form__button--accept form__button--small">
+                        </div>
+                    </form>
+                </article>
+                <article class="form form__recover flex">
+                    <h2 class="form__heading">Recover Form</h2>
+                    <form class="article-form">
+                        <div class="form__email">
+                            <label for="email">
+                                Email
+                            </label>
+                            <input type="text" class="form--input" placeholder="Email">
+                        </div>           
+                        <div class="form__number">                 
+                            <label for="phone-number">
+                                Phone number
+                            </label>
+                            <input type="text" class="form--input" placeholder="Enter your Phone number">
+                        </div>
+                        <div class="form__buttons--helper">
+                            <input type="submit" value="Send" class="form__button form__button--accept form__button--small">
+                            <input type="submit" value="Done" class="form__button form__button--accept form__button--small disabled">
+                        </div>
+                    </form>
+                </article>
+                <article class="form form__subscribe flex">
+                    <h2 class="form__heading">Subscribe Form</h2>
+                    <form class="article-form">
+                        <div class="form__email">
+                            <label for="email">
+                                Email
+                            </label>
+                            <input type="text" class="form--input" placeholder="Email">
+                        </div>
+                        <div class="form__buttons--helper">
+                            <input type="submit" value="Subscribe" class="form__button form__button--accept form__button--small">
+                            <input type="submit" value="No, Thanks" class="form__button form__button--decline form__button--small">
+                        </div>
+                    </form>
+                </article>
+            </div>
+
+            <footer class="footer">
+                <div class="logo footer-logo"></div>
+            </footer>
+        </section>
+    </body>
+</html>
